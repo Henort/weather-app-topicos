@@ -42,7 +42,8 @@ const renderCityAndCountry = eventOnClickCity => (cityAndCountry, weather) => {
 const CityList = ({ cities, onClickCity }) => {
 
     const [allWeather, setAllWeather] = useState({});
-    const appid = '7f489c6638f6347080e51c705cbf1203';
+    
+    const appid = 'AQUI VA SU API KEY';
     // const { city, country } = cities;
 
     /*
