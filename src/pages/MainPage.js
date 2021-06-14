@@ -9,11 +9,11 @@ import { Grid, Paper } from '@material-ui/core'
 // import { WiCloudUp } from 'react-icons/wi';
 
 const cities = [
-    { city: "CDMX", country: "México" },
-    { city: "Madrid", country: "España" },
-    { city: "Turin", country: "Italia" },
-    { city: "Paris", country: "Francia" },
-    { city: "Toronto", country: "Canadá" },
+    { city: "CDMX", country: "México", countryCode: 'MX' },
+    { city: "Madrid", country: "España", countryCode: 'ES' },
+    { city: "Turin", country: "Italia", countryCode: 'IT' },
+    { city: "Paris", country: "Francia", countryCode: 'FR' },
+    { city: "Toronto", country: "Canadá", countryCode: 'CA' },
 ];
 
 export const MainPage = () => {
